@@ -342,7 +342,7 @@ print(df)
 To download the CSV file, what is needed in this example, console/command line is enough:
 
 ```sh
-curl -O https://raw.githubusercontent.com/Asabeneh/30-Days-Of-Python/master/data/weight-height.csv
+curl -O curl -O https://raw.githubusercontent.com/Asabeneh/30-Days-Of-Python/master/data/weight-height.csv
 ```
 
 Put the downloaded file in your working directory.
@@ -620,11 +620,12 @@ Similar to describe(), the info() method also give information about the dataset
 ## Modifying a DataFrame
 
 Modifying a DataFrame:
-    * We can create a new DataFrame
-    * We can create a new column and add it to the DataFrame, 
-    * we can remove an existing column from a DataFrame, 
-    * we can modify an existing column in a DataFrame, 
-    * we can change the data type of column values in the DataFrame
+
+- We can create a new DataFrame
+- We can create a new column and add it to the DataFrame,
+- we can remove an existing column from a DataFrame,
+- we can modify an existing column in a DataFrame,
+- we can change the data type of column values in the DataFrame
 
 ### Creating a DataFrame
 
