@@ -38,3 +38,15 @@ print('Last name: ', last_name)
 print('Country: ', country)
 print('Age: ', age)
 print('Married: ', is_married)
+name = input("What is you name?\n")
+print(f"Hello {name}")
+age = input("what is your age?\n")
+
+age_int = int(age)
+
+if age_int > 30:
+    print("you are so old")
+elif age_int == 30:
+    print("perfecto")
+else: 
+    print("you are so young")
